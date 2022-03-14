@@ -1,0 +1,182 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.content{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#header{
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: 80px;
+}
+
+.nav{
+	margin-top: 28px;
+	font-family: Gilroy-Bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #828282;
+	text-align: center
+}
+
+a:hover{
+	color: #070707;
+}
+
+#about{
+	text-align: left;
+}
+
+#contact{
+	text-align: right;
+}
+
+hr{
+	width: 100%;
+	color: #828282;
+}
+
+a{
+	text-decoration: none;
+	color: #828282;
+}
+
+#home{
+	margin-top: 30px;
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 1fr;
+}
+
+#name{
+	font-family: Girloy-Bold;
+	font-size: 47px;
+	color: #070707;
+	line-height: 58px;
+}
+
+#old{
+	display: flex;
+	align-items: flex-end;
+	text-align: right
+}
+
+#parent{
+	width: 100%;
+	text-align: right;
+	font-family: Gilroy-Medium;
+	font-size: 18px;
+	line-height: 22px;
+	color: #070707;
+}
+
+#heading{
+	width: 50%;
+	text-align: center;
+	font-size: 34px;
+	color: #070707;
+	margin: 0 auto;
+	margin-top: 80px;
+	line-height: 42px;
+	font-family: Girloy-Bold;
+}
+
+#text{
+	width: 50%;
+	text-align: center;
+	font-size: 18px;
+	color: #070707;
+	margin: 0 auto;
+	margin-top: 30px;
+	line-height: 22px;
+	font-family: Girloy-Medium;
+}
+
+#my_skills{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 70px;
+	text-align: center;
+	font-size: 34px;
+	color: #070707;
+	line-height: 42px;
+	font-family: Girloy-Bold;
+	margin-bottom: 70px;
+}
+
+img{
+	width: 70px;
+}
+
+#skills{
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.center{
+	text-align: center;
+}
+
+#text-contact{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 70px;
+	font-family: Girloy-Bold;
+	font-size: 24px;
+	line-height: 42px;
+	color: #070707;
+}
+
+#icon-contact{
+	width: 20%;
+	margin: 0 auto;
+	margin-top: 40px;
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 10px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.icon-block{
+	text-align: center;
+}
+
+.icon{
+	width: 20px;
+}
+
+#works{
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 70px;
+	text-align: center;
+	font-size: 34px;
+	color: #070707;
+	line-height: 42px;
+	font-family: Girloy-Bold;
+	margin-bottom: 70px;
+}
+
+#example div{
+	width: 100%;
+	margin-top: 40px;
+}
+
+#example{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#example div img{
+	width: 100%;
+	border: 1px solid #070707;
+	border-radius: 10px;
+}
